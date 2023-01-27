@@ -8,12 +8,13 @@
 [![result](https://img.shields.io/badge/result-80:20-blue)](https://github.com/shyammarjit/EEG-Emotion-Recognition/blob/IRIA-2021/80-20%20GA-MLP%20results.md)
 [![result](https://img.shields.io/badge/result-10--fold-blue)](https://github.com/shyammarjit/EEG-Emotion-Recognition/blob/IRIA-2021/10-fold%20GA-MLP%20results.md)
 
+
+
 ## Structure of Code directory
 
----
-
 ```text
-├── AUTHORS.md              <- List of developers and maintainers.
+├── **Subject Dependent**   <- List of developers and maintainers.
+|     ├── [Data Preprocessing](https://github.com/shyammarjit/HSFCS/blob/main/code/subject%20dependent/data_preprocessing.py)
 ├── CHANGELOG.md            <- Changelog to keep track of new features and fixes.
 ├── CONTRIBUTING.md         <- Guidelines for contributing to this project.
 ├── Dockerfile              <- Build a docker container with `docker build .`.
@@ -38,7 +39,7 @@
 ├── reports                 <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures             <- Generated plots and figures for reports.
 ```
-## Subject Dependent:<br/>
+## :<br/>
 1. [Data Handling, PreProcessing [Bandpass (4-48 Hz) + ICA + CAR]](https://github.com/shyammarjit/HSFCS/blob/main/Subject%20Dependent/Code/STEP-1.%20%5Bband:%204-48%5D%20%5Bfir%5D%20%5Bno_of_components%20%3D%2031%5D%20%5Bone%20component%20dropping%5D.ipynb)<br/>
 2. [HSFCS-based Channel Selection](https://github.com/shyammarjit/HSFCS/blob/main/Subject%20Dependent/Code/STEP-2.%20HSFCS%20based%20Channel%20Selection%20BCI.ipynb)<br/>
 3. [Wavelet-based Feature Extraction]() [\[datafiles\]](https://github.com/shyammarjit/HSFCS/tree/main/Subject%20Independent/data%20files/Wavelet%20Based)<br/>
