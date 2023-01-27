@@ -12,7 +12,7 @@
 
 ## Structure of Code directory
 
-```text
+```
 ├── **Subject Dependent**   <- List of developers and maintainers.
 |     ├── [Data Preprocessing](https://github.com/shyammarjit/HSFCS/blob/main/code/subject%20dependent/data_preprocessing.py)
 ├── CHANGELOG.md            <- Changelog to keep track of new features and fixes.
