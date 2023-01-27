@@ -13,8 +13,12 @@
 ## Structure of Code directory
 
 ```
+├── Data files                                    <- Datafiles: stored features
+│   ├── PSD features                              <- Power Spectral Density based features (.csv files)
+│   ├── Wavelet features                          <- Discreate Wavelet based features (.csv files)
+│
 ├── Subject Dependent                             <- Subject Dependent code
-│   ├── Data Preprocessing                        <- Data Preprocessing [Band Pass Filering -> ICA -> CAR]
+│   ├── Data Preprocessing                        <- Data Preprocessing [Band Pass Filtering -> ICA -> CAR]
 │   ├── Channel Selection                         <- HSFCS based Channel Selection
 │   ├── Wavelet based Features Extraction         <- Discreate Wavelet based feature extraction
 │       ├── utils                                 <- Functions for features extraction
@@ -23,6 +27,6 @@
 │
 ├── Subject Independent                           <- Subject Independent code
 │   ├── Channel Selection                         <- Merged all subject wise data and
-│   │                                                HSFCS based Channel Selection
+│   │                                                perform HSFCS based Channel Selection
 │   ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
 ```
