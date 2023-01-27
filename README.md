@@ -8,7 +8,36 @@
 [![result](https://img.shields.io/badge/result-80:20-blue)](https://github.com/shyammarjit/EEG-Emotion-Recognition/blob/IRIA-2021/80-20%20GA-MLP%20results.md)
 [![result](https://img.shields.io/badge/result-10--fold-blue)](https://github.com/shyammarjit/EEG-Emotion-Recognition/blob/IRIA-2021/10-fold%20GA-MLP%20results.md)
 
-# Code
+## Structure of Code directory
+
+---
+
+```text
+├── AUTHORS.md              <- List of developers and maintainers.
+├── CHANGELOG.md            <- Changelog to keep track of new features and fixes.
+├── CONTRIBUTING.md         <- Guidelines for contributing to this project.
+├── Dockerfile              <- Build a docker container with `docker build .`.
+├── LICENSE.txt             <- License as chosen on the command-line.
+├── README.md               <- The top-level README for developers.
+├── configs                 <- Directory for configurations of model & application.
+├── data
+│   ├── external            <- Data from third party sources.
+│   ├── interim             <- Intermediate data that has been transformed.
+│   ├── processed           <- The final, canonical data sets for modeling.
+│   └── raw                 <- The original, immutable data dump.
+├── docs                    <- Directory for Sphinx documentation in rst or md.
+├── environment.yml         <- The conda environment file for reproducibility.
+├── models                  <- Trained and serialized models, model predictions,
+│                              or model summaries.
+├── notebooks               <- Jupyter notebooks. Naming convention is a number (for
+│                              ordering), the creator's initials and a description,
+│                              e.g. `1.0-fw-initial-data-exploration`.
+├── pyproject.toml          <- Build configuration. Don't change! Use `pip install -e .`
+│                              to install for development or to build `tox -e build`.
+├── references              <- Data dictionaries, manuals, and all other materials.
+├── reports                 <- Generated analysis as HTML, PDF, LaTeX, etc.
+│   └── figures             <- Generated plots and figures for reports.
+```
 ## Subject Dependent:<br/>
 1. [Data Handling, PreProcessing [Bandpass (4-48 Hz) + ICA + CAR]](https://github.com/shyammarjit/HSFCS/blob/main/Subject%20Dependent/Code/STEP-1.%20%5Bband:%204-48%5D%20%5Bfir%5D%20%5Bno_of_components%20%3D%2031%5D%20%5Bone%20component%20dropping%5D.ipynb)<br/>
 2. [HSFCS-based Channel Selection](https://github.com/shyammarjit/HSFCS/blob/main/Subject%20Dependent/Code/STEP-2.%20HSFCS%20based%20Channel%20Selection%20BCI.ipynb)<br/>
