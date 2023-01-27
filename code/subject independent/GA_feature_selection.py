@@ -216,13 +216,10 @@ if __name__ == "__main__":
 				"Pz", "Fp2", "AF4", "Fz", "F4", "F8", "FC6", "FC2", "Cz", "C4", "T8", "CP6", "CP2", "P4", "P8",
 				"PO4", "O2"]
 
-	# 'deap dataset path' put the path in which deap dataset files are kept.
-	deap_dataset_path = '/Users/shyammarjit/Desktop/Brain Computer Interface/Deap Dataset/'
 	# put the path location of datfiles folder s.t. subject wise folder should contain datafiles
 	datafiles_path = '/Users/shyammarjit/Desktop/Brain Computer Interface/HSFCS/code/datafiles/wavelet/'
 
 	parser.add_argument("--subject", type=str, default="s01", help="subject name")
-	parser.add_argument("--deap_dataset_path", type=str, default=deap_dataset_path, help="DEAP dataset path")
 	parser.add_argument("--datafiles_path", type=str, default=datafiles_path, help="Location of subject wise datafiles")
 	parser.add_argument("--alpha", type =float, default = 0.90, help="weight for classification accuracy")
 	parser.add_argument("--numPop", type =int, default = 100, help="size of the population in GA")
