@@ -14,15 +14,15 @@
 
 ```
 ├── Subject Dependent                             <- Subject Dependent code
-|   ├── Data Preprocessing                        <- Data Preprocessing [Band Pass Filering -> ICA -> CAR]
-|   ├── Channel Selection                         <- HSFCS based Channel Selection
-|   ├── Wavelet based Features Extraction         <- Discreate Wavelet based feature extraction
-|       ├── utils                                 <- Functions for features extraction
-|   ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
-|       ├── utils_channels                        <- Subject wise optimal channels list
+│   ├── Data Preprocessing                        <- Data Preprocessing [Band Pass Filering -> ICA -> CAR]
+│   ├── Channel Selection                         <- HSFCS based Channel Selection
+│   ├── Wavelet based Features Extraction         <- Discreate Wavelet based feature extraction
+│       ├── utils                                 <- Functions for features extraction
+│   ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
+│       ├── utils_channels                        <- Subject wise optimal channels list
 
 ├── Subject Independent                           <- Subject Independent code
-|   ├── Channel Selection                         <- Merged all subject wise data and
-|   │                                                HSFCS based Channel Selection
-|   ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
+│   ├── Channel Selection                         <- Merged all subject wise data and
+│   │                                                HSFCS based Channel Selection
+│   ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
 ```
