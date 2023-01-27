@@ -13,16 +13,16 @@
 ## Structure of Code directory
 
 ```
-├── Subject Dependent                               <- Generated plots and figures for reports.
-|     ├── Data Preprocessing                        <- Generated plots and figures for reports.
-|     ├── Channel Selection                         <- Generated plots and figures for reports.
-|     ├── Wavelet based Features Extraction         <- Generated plots and figures for reports.
-|         ├── utils                                 <- Generated plots and figures for reports.
-|     ├── Genetic Algorithm for Feature Selection   <- Generated plots and figures for reports.
-|         ├── utils_channels                        <- Generated plots and figures for reports.
+├── Subject Dependent                               <- Subject Dependent code
+|     ├── Data Preprocessing                        <- Data Preprocessing [Band Pass -> ICA -> CAR]
+|     ├── Channel Selection                         <- HSFCS based Channel Selection
+|     ├── Wavelet based Features Extraction         <- Discreate Wavelet based feature extraction
+|         ├── utils                                 <- Functions for features extraction
+|     ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
+|         ├── utils_channels                        <- Subject wise optimal channels list
 
-├── Subject Independent                             <- Generated plots and figures for reports.
-|     ├── Channel Selection                         <- Generated plots and figures for reports.
-|     ├── Genetic Algorithm for Feature Selection   <- Generated plots and figures for reports.
-|         ├── utils_channels                        <- Generated plots and figures for reports.
+├── Subject Independent                             <- Subject Independent code
+|     ├── Channel Selection                         <- Merged all subject wise data and
+                                                       HSFCS based Channel Selection
+|     ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
 ```
