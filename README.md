@@ -3,8 +3,8 @@
 [Shyam Marjit](shyammarjit.github.io), [Parag Jyoti Das](https://www.linkedin.com/in/paragjdas/), [Upasana Talukdar](https://www.iiitg.ac.in/faculty/upasana/), and [Shyamanta M Hazarika](https://www.iitg.ac.in/s.m.hazarika/)
 
 [![paper](https://img.shields.io/badge/IEEE-Paper-<COLOR>.svg)]()
-[![code](https://img.shields.io/badge/code-Sub Dep-orange)]()
-[![code](https://img.shields.io/badge/code-Sub Indep-orange)]()
+[![code](https://img.shields.io/badge/code-Sub--Dep-orange)]()
+[![code](https://img.shields.io/badge/code-Sub--Indep-orange)]()
 [![datafiles](https://img.shields.io/badge/psd-blue)]()
 [![datafiles](https://img.shields.io/badge/wavelet-blue)]()
 
