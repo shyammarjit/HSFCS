@@ -23,6 +23,6 @@
 
 ├── Subject Independent                             <- Subject Independent code
 |     ├── Channel Selection                         <- Merged all subject wise data and
-                                                       HSFCS based Channel Selection
+|                                                      HSFCS based Channel Selection
 |     ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
 ```
