@@ -20,6 +20,7 @@
 |         ├── utils                                 <- Generated plots and figures for reports.
 |     ├── Genetic Algorithm for Feature Selection   <- Generated plots and figures for reports.
 |         ├── utils_channels                        <- Generated plots and figures for reports.
+
 ├── Subject Independent                             <- Generated plots and figures for reports.
 |     ├── Channel Selection                         <- Generated plots and figures for reports.
 |     ├── Genetic Algorithm for Feature Selection   <- Generated plots and figures for reports.
