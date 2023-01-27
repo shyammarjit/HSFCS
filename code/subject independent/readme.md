@@ -2,7 +2,7 @@
 Please follow the instructions:<br/>
 
 1. HSFCS based channel selction:<br/>
-```bash
+```text
 python channel_selection.py \
 --no_of_folds [K fold cross validation] \
 --deap_dataset_path [deap dataset path] \
@@ -11,7 +11,7 @@ python channel_selection.py \
 **Note:** Data Handling and Preprocessing step is same as subject dependent analysis. Here we merge .csv files of all subjects. 
 
 2. Genetic Algorithm based feature selection:<br/>
-```bash
+```text
 python GA_feature_selection.py \
 --subject [subject name] \
 --datafiles_path [put the path where the subject wise .csv files are kept] \
