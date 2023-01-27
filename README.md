@@ -20,7 +20,7 @@
 │       ├── utils                                 <- Functions for features extraction
 │   ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
 │       ├── utils_channels                        <- Subject wise optimal channels list
-
+│
 ├── Subject Independent                           <- Subject Independent code
 │   ├── Channel Selection                         <- Merged all subject wise data and
 │   │                                                HSFCS based Channel Selection
