@@ -26,7 +26,7 @@
 │       ├── utils_channels                        <- Subject wise optimal channels list
 │
 ├── Subject Independent                           <- Subject Independent code
-│   ├── Channel Selection                         <- Merged all subject wise data and
-│   │                                                perform HSFCS based Channel Selection
+│   ├── Channel Selection                         <- Aggregate all subject wise data and
+│   │                                                perform HSFCS-based Channel Selection
 │   ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
 ```
