@@ -17,6 +17,14 @@ python wavelet_features.py --subject [subject name] --deap_dataset_path [deap da
 ```
 
 4. Genetic Algorithm based feature selection:<br/>
-```
-python GA_feature_selection.py --subject [subject name] --datafiles_path [put the path where the subject wise .csv files are kept]
+```text
+python GA_feature_selection.py \
+--subject [subject name] \
+--datafiles_path [put the path where the subject wise .csv files are kept] \
+--alpha [weight for classification accuracy] \
+--numPop [size of the population in GA] \
+--numGen [No of generations in GA \
+--cxpb [crossover probability in GA] \
+--mutpb [mutation probability in GA] \
+--tournsize [tournsize in GA]
 ```
