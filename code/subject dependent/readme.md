@@ -23,7 +23,7 @@ python GA_feature_selection.py \
 --datafiles_path [put the path where the subject wise .csv files are kept] \
 --alpha [weight for classification accuracy] \
 --numPop [size of the population in GA] \
---numGen [No of generations in GA \
+--numGen [No of generations in GA] \
 --cxpb [crossover probability in GA] \
 --mutpb [mutation probability in GA] \
 --tournsize [tournsize in GA]
