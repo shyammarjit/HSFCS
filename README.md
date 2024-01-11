@@ -2,7 +2,7 @@
 
 [Shyam Marjit](shyammarjit.github.io), [Parag Jyoti Das](https://www.linkedin.com/in/paragjdas/), [Upasana Talukdar](https://www.iiitg.ac.in/faculty/upasana/), and [Shyamanta M Hazarika](https://www.iitg.ac.in/s.m.hazarika/)
 
-[![paper](https://img.shields.io/badge/paper-Taylor%20%26%20Francis-green)]()
+[![paper](https://img.shields.io/badge/paper-Taylor%20%26%20Francis-green)](http://dx.doi.org/10.1080/0952813X.2023.2301367)
 [![code](https://img.shields.io/badge/code-Sub--Dep-orange)](https://github.com/shyammarjit/HSFCS/tree/main/code/subject%20dependent)
 [![code](https://img.shields.io/badge/code-Sub--Indep-orange)](https://github.com/shyammarjit/HSFCS/tree/main/code/subject%20independent)
 [![datafiles](https://img.shields.io/badge/datafiles-psd-blue)](https://github.com/shyammarjit/HSFCS/tree/main/code/datafiles/psd)
