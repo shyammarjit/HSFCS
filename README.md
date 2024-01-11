@@ -30,3 +30,22 @@
 │   │                                                perform HSFCS-based Channel Selection
 │   ├── Genetic Algorithm for Feature Selection   <- GA for feature selection from optimal channels
 ```
+
+## ✏️ Citation
+If you think this project is helpful, please feel free to leave a star⭐️ and cite our paper:
+
+```bash
+@article{shyam2024hsfcs,
+    author = {Shyam Marjit, Parag Jyoti Das, Upasana Talukdar and Shyamanta M Hazarika},
+    title = {A hybrid sequential forward channel selection method for enhancing EEG-Based emotion recognition},
+    journal = {Journal of Experimental \& Theoretical Artificial Intelligence},
+    volume = {0},
+    number = {0},
+    pages = {1-25},
+    year = {2024},
+    publisher = {Taylor & Francis},
+    doi = {10.1080/0952813X.2023.2301367},
+    URL = {https://doi.org/10.1080/0952813X.2023.2301367},
+    eprint = {https://doi.org/10.1080/0952813X.2023.2301367},
+}
+```
